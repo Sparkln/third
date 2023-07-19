@@ -1,0 +1,13 @@
+from django.shortcuts import render
+from django.http import HttpResponse
+
+# Create your views here.
+
+def string_response(request):
+    return HttpResponse('This is my first string.....')
+
+def second_string(request):
+    return HttpResponse('This is my second string of this day.....')
+
+def third_string(request):
+    return HttpResponse('This is my third string of this day.....')
